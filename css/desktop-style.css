@@ -17,6 +17,8 @@
 
 body {
   display: grid;
+  place-content: center;
+  min-height: 100vh;
   background-color: var(--Light-Gray);
   background-image: url("../images/lines.jpg");
   background-size: cover;
@@ -27,8 +29,6 @@ body {
 main {
   display: grid;
   grid-template-columns: 318px 318px;
-  place-content: center;
-  margin-top: 10rem;
 }
 
 main section {
@@ -40,10 +40,6 @@ main section {
   align-items: center;
   height: 259px;
 }
-
-/*section {
-  border: solid 4px red;
-}*/
 
 .join {
   background-color: white;

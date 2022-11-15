@@ -18,6 +18,8 @@
 
 body {
   display: grid;
+  place-content: center;
+  min-height: 100vh;
   background-color: var(--Light-Gray);
   background-image: url("../images/lines.jpg");
   background-size: cover;
@@ -28,23 +30,17 @@ body {
 main {
   display: grid;
   grid-template-columns: auto;
-  place-content: center;
-  margin-top: 4.5rem;
 }
 
 main section {
   display: grid;
   padding-left: 1.5rem;
-  padding-right: .75rem;
+  padding-right: 0.75rem;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   align-items: center;
   width: 311px;
   height: 240px;
-}
-
-//section {
-  border: solid 4px red;
 }
 
 .join {
@@ -54,7 +50,7 @@ main section {
 
 .join h1 {
   color: var(--Cyan);
-  
+
   font-size: 1.25rem;
   line-height: 1.4375rem;
   font-weight: 700;
@@ -63,7 +59,7 @@ main section {
 .join h2 {
   color: var(--Bright-Yellow);
   line-height: 1.25rem;
-  font-size: .9375rem;
+  font-size: 0.9375rem;
   font-weight: 700;
 }
 
@@ -76,34 +72,33 @@ main section {
 .subscribe {
   background-color: var(--Cyan);
   color: white;
-  
 }
 
 .subscribe h3 {
-    font-size: 1.125rem;
-    font-weight: 700;
-    line-height: 1.3125rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.3125rem;
 }
 
 .dollar {
-    font-size: 2rem;
-    font-weight: 700;
+  font-size: 2rem;
+  font-weight: 700;
 }
 
 .per-month {
-    font-size: 1rem;
-    opacity: 80%;
+  font-size: 1rem;
+  opacity: 80%;
 }
 
 .why-us h3 {
-font-size: 1.125rem;
-font-weight: 700;
-line-height: 1.3125rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.3125rem;
 }
 
 .why-us p {
-    font-size: .875rem;
-    opacity: 80%;
+  font-size: 0.875rem;
+  opacity: 80%;
 }
 
 .subscribe button {
@@ -114,7 +109,6 @@ line-height: 1.3125rem;
   box-shadow: 0px 10px 10px hsla(0, 0%, 0%, 0.097);
   width: 263px;
   height: 48px;
-
 }
 
 @media (hover: hover) {
