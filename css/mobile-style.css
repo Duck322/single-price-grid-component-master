@@ -96,7 +96,8 @@ main section {
   line-height: 1.3125rem;
 }
 
-.why-us p {
+.why-us p,
+li {
   font-size: 0.875rem;
   opacity: 80%;
 }
@@ -125,6 +126,10 @@ main section {
   color: white;
   border-radius: 0 0 10px 10px;
   line-height: 1.25rem;
+}
+
+ul li {
+  list-style: none;
 }
 
 /*.attribution {
