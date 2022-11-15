@@ -1,0 +1,142 @@
+:root {
+  /*Primary colors*/
+  --Cyan: hsl(179, 62%, 43%);
+  --Bright-Yellow: hsl(71, 73%, 54%);
+
+  /*Nuetral colors*/
+  --Light-Gray: hsl(204, 43%, 93%);
+  --Greyish-Blue: hsl(218, 22%, 67%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  font-family: "Karla", sans-serif;
+  font-size: 14px;
+}
+
+body {
+  display: grid;
+  background-color: var(--Light-Gray);
+  background-image: url("../images/lines.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+main {
+  display: grid;
+  grid-template-columns: auto;
+  place-content: center;
+  margin-top: 4.5rem;
+}
+
+main section {
+  display: grid;
+  padding-left: 1.5rem;
+  padding-right: .75rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  align-items: center;
+  width: 311px;
+  height: 240px;
+}
+
+//section {
+  border: solid 4px red;
+}
+
+.join {
+  background-color: white;
+  border-radius: 10px 10px 0 0;
+}
+
+.join h1 {
+  color: var(--Cyan);
+  
+  font-size: 1.25rem;
+  line-height: 1.4375rem;
+  font-weight: 700;
+}
+
+.join h2 {
+  color: var(--Bright-Yellow);
+  line-height: 1.25rem;
+  font-size: .9375rem;
+  font-weight: 700;
+}
+
+.join p {
+  color: var(--Greyish-Blue);
+  line-height: 1.625rem;
+  font-weight: 400;
+}
+
+.subscribe {
+  background-color: var(--Cyan);
+  color: white;
+  
+}
+
+.subscribe h3 {
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.3125rem;
+}
+
+.dollar {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.per-month {
+    font-size: 1rem;
+    opacity: 80%;
+}
+
+.why-us h3 {
+font-size: 1.125rem;
+font-weight: 700;
+line-height: 1.3125rem;
+}
+
+.why-us p {
+    font-size: .875rem;
+    opacity: 80%;
+}
+
+.subscribe button {
+  background-color: var(--Bright-Yellow);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 10px 10px hsla(0, 0%, 0%, 0.097);
+  width: 263px;
+  height: 48px;
+
+}
+
+@media (hover: hover) {
+  .subscribe button:hover {
+    background-color: white;
+    color: var(--Cyan);
+    box-shadow: 0px 10px 10px var(--Bright-Yellow);
+    cursor: pointer;
+  }
+}
+
+.why-us {
+  background-color: hsl(179, 62%, 46%);
+  color: white;
+  border-radius: 0 0 10px 10px;
+  line-height: 1.25rem;
+}
+
+/*.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}*/
